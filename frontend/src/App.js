@@ -13,8 +13,8 @@ function App() {
   data()
 
   return (
-    <div>
-      <h1 className="App">{response}</h1>
+    <div className="App">
+      <h1 >{response}</h1>
       <h2>Hello</h2>
     </div>
   );
