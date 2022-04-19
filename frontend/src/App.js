@@ -5,7 +5,7 @@ import {useState} from 'react'
 function App() {
  const [response, setResponse] = useState()
   async function data() {
-    const res = await axios.get('http://localhost:5000/api/home')
+    const res = await axios.get('http://localhost:5000/')
     setResponse(res.data.msg)
   }
 
