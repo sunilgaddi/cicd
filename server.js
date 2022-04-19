@@ -6,7 +6,7 @@ const app =  express()
 app.use(express.static(path.join(__dirname, 'frontend/build')))
 app.use(cors())
 
-app.get('/api', (req, res) => {
+app.get('/api/home', (req, res) => {
     res.json(
        {
         msg:"hello"
@@ -14,7 +14,7 @@ app.get('/api', (req, res) => {
     )
 })
 
-app.get('/login', (req, res) => {
+app.get('/api/login', (req, res) => {
     res.json(
        {
         msg:"Welcome to login page!"
