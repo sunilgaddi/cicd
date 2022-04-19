@@ -9,12 +9,12 @@ function App() {
     setResponse(res.data.msg)
   }
 
-
   data()
 
   return (
     <div>
       <h1>{response}</h1>
+      <h2>Hello</h2>
     </div>
   );
 }
