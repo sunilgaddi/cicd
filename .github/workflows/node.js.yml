@@ -27,8 +27,7 @@ jobs:
     
     - name: installing frontend mods
       working-directory: ./frontend 
-      run: npm install
-    - run: npm run build
+      run: npm install && npm run build
       
     
       
