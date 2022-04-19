@@ -1,5 +1,6 @@
 import axios from "axios"
 import {useState} from 'react'
+import "./App.css"
 
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
 
   return (
     <div>
-      <h1>{response}</h1>
+      <h1 className="App">{response}</h1>
       <h2>Hello</h2>
     </div>
   );
