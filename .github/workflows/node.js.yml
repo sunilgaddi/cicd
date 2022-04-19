@@ -24,8 +24,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm install
-      working-directory: ./home/ubuntu/actions-runner/react/cicd/cicd/frontend
-    - run: pwd
+    - run: ls
     - run: npm install
     - run: npm run build
      
